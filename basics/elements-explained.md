@@ -140,11 +140,6 @@ Our dashboard controller needs a `welcome` action, so let's add it:
         send('hi');
     });
 
-Alternative syntax (coffee-friendly):
-
-    action('welcome', function () {
-        send('hi');
-    });
 
 It allows us to write the controller action in coffeescript:
 
